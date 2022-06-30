@@ -1,0 +1,20 @@
+Two models mentioned in the our paper, which are Algorithm-1 and Algorithm-Overall, are included in this directory. The executable file of Algorithm-1 is listed in directory HM-16.0-b1/ and the executable file of Algorithm-Overall is listed in directory HM-16.0-bOverall/.
+
+If you employ our models, the specific steps are as follows:
+
+(1) First, define the path:
+OUT=Log
+OutYUV=OutYUV
+
+(2) Then, define the information about the video sequence:
+CFGNAME=RaceHorsesC
+VIDEONAME=RaceHorses_832x480_30
+
+(3) Next, define the algorithm:
+ALGO=b1
+
+(4) Finally, encode the video sequence:
+for qp in 22 27 32 37
+do
+	HM-16.0-${ALGO}/bin/TAppEncoderStatic -c HM-16.0-${ALGO}/cfg/encoder_randomaccess_main.cfg -c HM-16.0-${ALGO}/cfg/per-sequence/${CFGNAME}.cfg -i ../Video/${VIDEONAME}.yuv -o ${OutYUV}/${CFGNAME}_${qp}_${ALGO}_RA.yuv -q ${qp} -b ${CFGNAME}_${qp}_${ALGO}_RA.bin
+done
