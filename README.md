@@ -1,6 +1,6 @@
 # Perceptually Weighted Mean Squared Error Based Rate-Distortion Optimization for HEVC
 
-Hanli Wang , Yun Yi , Jun Wu
+Xiuzhe Wu, Hanli Wang, Sudeng Hu, Sam Kwong, and C.-C. Jay Kuo
 
 ### Overview:
 
@@ -14,7 +14,7 @@ First, a low-pass filter is employed to process the original distortion informat
 
 Two algorithms are defined in the following experiments, including Algorithm-I and Algorithm-Overall. Specifically speaking, Algorithm-I only applies the first step of our proposed RD model and Algorithm-Overall stands for the overall algorithm. Moreover, two state-of-the-art algorithms [23] and [24] are employed for performance comparison.
 
-In total, there are twenty HEVC benchmark video sequences employed for performance evaluation, which can be divided into five classes with five kinds of resolution (Class A: 2560x1600, Class B: 1920x1080, Class C: 832x480, Class D: 416x240, and Class E: 1280x720). The video sequences from Classes A, B, C and D are tested with the random access (RA) configuration while the video sequences from Classes B, C, D and E are tested with the low delay (LD) configuration. Four *Q**p* values including 22, 27, 32 and 37 are applied to generate the target bitrate of the anchor HEVC encoder, and all the frames of each test sequence are coded.
+In total, there are twenty HEVC benchmark video sequences employed for performance evaluation, which can be divided into five classes with five kinds of resolution (Class A: 2560x1600, Class B: 1920x1080, Class C: 832x480, Class D: 416x240, and Class E: 1280x720). The video sequences from Classes A, B, C and D are tested with the random access (RA) configuration while the video sequences from Classes B, C, D and E are tested with the low delay (LD) configuration. Four Q<sub>p</sub> values including 22, 27, 32 and 37 are applied to generate the target bitrate of the anchor HEVC encoder, and all the frames of each test sequence are coded.
 
 The results are shown in Table I-Table IV. The performances of these competing methods are evaluated from two aspects: compression efficiency and perceived quality. ΔB is bit saving and ΔPWMSE denotes PWMSE improvement. 
 
