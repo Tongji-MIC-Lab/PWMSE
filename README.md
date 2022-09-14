@@ -37,3 +37,4 @@ X. Wu, H. Wang, S. Hu, S. Kwong, and C.-C. J. Kuo, Perceptually Weighted Mean Sq
 [23] S. Li, C. Zhu, Y. Gao, Y. Zhou, F. Dufaux, and M. T. Sun, "Lagrangian multiplier adaptation for rate-distortion optimization with inter-frame dependency," *IEEE Trans. Circuits Syst. Video Technol.*, vol. 26, no. 1, pp. 117–129, Jan. 2016.
 
 [24] S. Wang, A. Rehman, Z. Wang, S. Ma, and W. Gao, "Perceptual video coding based on SSIM-inspired divisive normalization," *IEEE Trans. Image Processing*, vol. 22, no. 4, pp. 1418–1429, Apr. 2013.
+
